@@ -73,7 +73,7 @@ class KVolumeSlider: UIView {
         progressView.tintColor = UIColor.gray.withAlphaComponent(0.3)
         progressView.progress = session.outputVolume
         progressView.backgroundColor = backColor
-        progressView.alpha = 1
+        progressView.alpha = 0
         addSubview(progressView)
         
         volumeView.setVolumeThumbImage(UIImage(), for: UIControlState())
